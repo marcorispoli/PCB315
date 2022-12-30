@@ -1,0 +1,61 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[12/30/22]")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\library.olb"
+        (Type "Schematic Library")))
+    ("Allegro Netlist Directory" "allegro")
+    (File ".\22-315-0.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (Display_Online_DRC_Results "FALSE"))
+  (Folder "Layout")
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (Folder "Logs")
+  (PartMRUSelector
+    (L_47uH_COILCRAFT
+      (FullPartName "L_47uH_COILCRAFT.Normal")
+      (LibraryName
+         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-315\ORCAD\LIBRARY.OLB")
+      (DeviceIndex "0"))
+    (CON_B4B-XH-A
+      (FullPartName "CON_B4B-XH-A.Normal")
+      (LibraryName
+         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-315\ORCAD\LIBRARY.OLB")
+      (DeviceIndex "0"))
+    (C_EMI_W3F15C4738AT1F
+      (FullPartName "C_EMI_W3F15C4738AT1F.Normal")
+      (LibraryName
+         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-315\ORCAD\LIBRARY.OLB")
+      (DeviceIndex "0")))
+  (MPSSessionName "marco")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\22-315-0.dsn")
+      (Path "Design Resources" ".\22-315-0.dsn" "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-315\ORCAD\library.olb")
+      (Select "Design Resources" ".\22-315-0.dsn" "SCHEMATIC1" "uC"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 588 0 911"))
+      (Tab 0))))
