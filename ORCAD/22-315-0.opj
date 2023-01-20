@@ -50,26 +50,21 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "c:\users\marco\documents\data\progetti-git\hw\pcb-22-315\orcad\22-315-0.dsn")
-      (Path "Design Resources"
-         "c:\users\marco\documents\data\progetti-git\hw\pcb-22-315\orcad\22-315-0.dsn"
-         "SCHEMATIC1")
+      (Path "Design Resources" ".\22-315-0.dsn")
+      (Path "Design Resources" ".\22-315-0.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
-      (Select "Design Resources"
-         "c:\users\marco\documents\data\progetti-git\hw\pcb-22-315\orcad\22-315-0.dsn"
-         "SCHEMATIC1" "TEST_BUTTON"))
+      (Select "Design Resources" ".\22-315-0.dsn" "SCHEMATIC1" "POWER"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 330 0 911"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 911"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1544 24 929")
-        (Scroll "-157 0")
+        (Placement "44 0 1 -1 -1 5 24 5 1461 24 929")
+        (Scroll "-115 3")
         (Zoom "123")
         (Occurrence "/"))
       (Path
@@ -79,8 +74,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1544 24 929")
-        (Scroll "-145 -7")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1461 24 929")
+        (Scroll "-104 -7")
         (Zoom "104")
         (Occurrence "/"))
       (Path
@@ -90,8 +85,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1544 24 929")
-        (Scroll "-176 -8")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1461 24 929")
+        (Scroll "-135 -8")
         (Zoom "119")
         (Occurrence "/"))
       (Path
@@ -101,8 +96,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1544 24 929")
-        (Scroll "-145 -7")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1461 24 929")
+        (Scroll "-104 -7")
         (Zoom "104")
         (Occurrence "/"))
       (Path
@@ -112,8 +107,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1544 24 929")
-        (Scroll "-145 -7")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1461 24 929")
+        (Scroll "-104 -7")
         (Zoom "104")
         (Occurrence "/"))
       (Path
@@ -123,8 +118,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1544 24 929")
-        (Scroll "-145 -7")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1461 24 929")
+        (Scroll "-104 -7")
         (Zoom "104")
         (Occurrence "/"))
       (Path
@@ -134,8 +129,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1544 24 929")
-        (Scroll "-157 0")
+        (Placement "44 0 1 -1 -1 5 24 5 1461 24 929")
+        (Scroll "-115 3")
         (Zoom "123")
         (Occurrence "/"))
       (Path
