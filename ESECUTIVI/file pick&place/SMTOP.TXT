@@ -1,0 +1,67 @@
+********************************************************************
+*                                                                  *
+* Surface Mount Top Report                                         *
+*                                                                  *
+* D:\UTENTI\00.LAVORI IN CORSO\METALTRONICA\22-315-0\22-315-0.MAX  *
+* Mon Feb 06 17:37:50 2023                                         *
+*                                                                  *
+********************************************************************
+
+ REF DES    VALUE            PACKAGE          FOOTPRINT                      X INSERT   Y INSERT   ROTATION
+------------------------------------------------------------------------------------------------------------
+C2         10uF             C_POL            ETANT-D-R                       14.61 mm   19.05 mm  180     
+C3         10nF             C                SMD0805-MET                     9.53 mm    13.97 mm  90      
+C4         1uF              C                SMD0805-MET                     12.07 mm   23.50 mm  180     
+C6         1uF              C                SMD0805-MET                     81.28 mm   7.62 mm   90      
+C7         100uF            C_POL            ALLSIZED                        86.36 mm   19.69 mm  90      
+C9         100nF            C                SMD0805-MET                     79.38 mm   16.51 mm  180     
+C10        220nF            C                SMD1206                         79.38 mm   13.97 mm  0       
+C11        1uF              C                SMD0805-MET                     85.73 mm   5.08 mm   90      
+C17        4u7              C                ETANT-C                         21.59 mm   14.61 mm  270     
+C18        4u7              C                ETANT-C                         31.75 mm   14.61 mm  270     
+C21        4u7              C                ETANT-C                         26.04 mm   6.35 mm   270     
+C22        4u7              C                ETANT-C                         29.85 mm   6.35 mm   270     
+C23        4u7              C                ETANT-C                         43.82 mm   6.35 mm   270     
+C24        4u7              C                ETANT-C                         40.01 mm   6.35 mm   270     
+C28        4u7              C                ETANT-C                         69.22 mm   26.67 mm  180     
+C43        22pF             C                SMD0603                         68.31 mm   16.38 mm  90      
+C44        22pF             C                SMD0603                         67.58 mm   11.30 mm  0       
+C45        W3F15C4738AT1F   C_EMI_W3F15C47.. W3F                             29.21 mm   26.67 mm  0       
+C46        W3F15C4738AT1F   C_EMI_W3F15C47.. W3F                             23.50 mm   26.67 mm  0       
+D1         B120B-13-F       DSH_0            SMB-12                          11.43 mm   8.26 mm   0       
+D4         PMEG100T20ELXD.. D_0              SOD123W                         69.85 mm   22.23 mm  270     
+DL1        VERDE            LED_1            LED0805-MET-12                  43.18 mm   14.61 mm  90      
+DL2        VERDE            LED_1            LED0805-MET-12                  45.09 mm   14.61 mm  90      
+DL3        BLU              LED_1            LED0805-MET-12                  50.80 mm   2.54 mm   90      
+DL4        GIALLO           LED_1            LED0805-MET-12                  48.90 mm   2.54 mm   90      
+DL5        GIALLO           LED_1            LED0805-MET-12                  46.99 mm   2.54 mm   90      
+DL6        GIALLO           LED_1            LED0805-MET-12                  48.90 mm   7.62 mm   90      
+DL7        GIALLO           LED_1            LED0805-MET-12                  46.99 mm   7.62 mm   90      
+DL8        GIALLO           LED_1            LED0805-MET-12                  50.80 mm   7.62 mm   90      
+DL9        GIALLO           LED_1            LED0805-MET-12                  52.71 mm   7.62 mm   90      
+FR1        500mA            SMD030F-2_2      SMD050F_TYCO                    86.36 mm   26.04 mm  0       
+L1         DLW32SH101XF2L   CHOKE_DLW32SH1.. DLW32S_MURATA                   44.45 mm   20.96 mm  90      
+L3         8.2uH            L                SRR4528A-BOURNS                 26.67 mm   13.97 mm  0       
+L5         SRF0905-472Y     CHOKE_DLW32SH1.. SRF0905_BOURNS                  26.67 mm   21.59 mm  180     
+L9         MSS7341-473MLD   L_47UH_COILCRAFT MSS7341-COILCRAFT               4.45 mm    14.61 mm  180     
+Q5         IRLL014NTRPBF    STD6NF10T4_0     SOT223-1234                     76.20 mm   20.96 mm  90      
+R9         0R330            R                SMD1206                         17.15 mm   23.50 mm  180     
+R11        24K9             R                SMD0603                         79.38 mm   11.43 mm  180     
+R12        0R330            R                SMD1206                         94.62 mm   12.07 mm  270     
+R13        0R330            R                SMD1206                         94.62 mm   17.78 mm  270     
+R16        10K              R                SMD0603                         64.14 mm   25.91 mm  270     
+R17        10K              R                SMD0603                         67.31 mm   23.50 mm  90      
+R18        1K               R                SMD0603                         83.82 mm   5.08 mm   270     
+R19        68R              R                SMD0603                         16.50 mm   6.35 mm   90      
+SW1        DTSM-32S-B       PB               DTSM-32S-B                      71.25 mm   12.83 mm  90      
+TVS11      SMBJ5A           SMBJ_2           SMB-12                          73.66 mm   4.45 mm   270     
+TVS12      SMBJ5A           SMBJ_2           SMB-12                          78.11 mm   4.45 mm   270     
+U1         TJA1050T         TJA1050          SO8                             50.17 mm   18.49 mm  0       
+U2         LM3404MR/NOPB    LM3404MR         PSOP-8                          15.24 mm   13.34 mm  270     
+U3         A3984SLPTR-T     A3984            TSOP65P640X120-25M              87.00 mm   11.43 mm  270     
+U4         LM317MDCY        LM317A_0         SOT223-1234                     20.96 mm   5.08 mm   0       
+U8         NCP1117ST33T3G   NCP1117ST_0      SOT223-1234                     34.93 mm   5.08 mm   0       
+U9         MCP6002T-I/MS    MCP6002          SOG.65M/8/WG4.9/L3.00           59.60 mm   26.97 mm  270     
+U10        SAME51J20A-A     SAME51J20A-A_F.. QUAD.50M/64/WG12.00             60.31 mm   17.09 mm  90      
+U11        TCMT1103         TCMT1101         SSOP4                           74.30 mm   9.53 mm   0       
+XT1        32.768 kHz       XTAL_32768_12... ECX-16                          68.33 mm   13.59 mm  270     

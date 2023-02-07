@@ -1,139 +1,166 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[01/10/23]")
   (ProjectType "PCB")
   (Folder "Design Resources"
-    (Folder "Library"
-      (File ".\library.olb"
-        (Type "Schematic Library")))
-    ("Allegro Netlist Directory" "allegro")
+    (Folder "Library")
     (File ".\22-315-0.dsn"
       (Type "Schematic Design"))
     (BuildFileAddedOrDeleted "x")
     (CompileFileAddedOrDeleted "x")
-    (DOCKED "TRUE")
-    (DOCKING_POSITION "59420")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "TRUE")
+    (DRC_View_Output "TRUE")
+    (DRC_Preserved_Waived "FALSE")
+    (DRC_Run_Electrical_Rules "TRUE")
+    (DRC_Run_Physical_Rules "FALSE")
+    (DRC_Report_File
+       "D:\UTENTI\00.LAVORI IN CORSO\METALTRONICA\22-315-0\22-315-0.DRC")
+    (DRC_Check_Ports "FALSE")
+    (DRC_Check_Off-Page_Connectors "FALSE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_for_Misleading_TAP "FALSE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_Check_Single_Node_Nets "TRUE")
+    (DRC_Run_Electrical_Custom_DRC "FALSE")
+    (DRC_Check_No_Driving_Source "TRUE")
+    (DRC_Check_Duplicate_NetNames "TRUE")
+    (DRC_Check_Floating_Pins "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility "TRUE")
+    (DRC_Check_PCB_Footprint_Property "TRUE")
+    (DRC_Check_Normal_Convert_View_Sync "TRUE")
+    (DRC_Check_Incorrect_PinGroup_Assignment "TRUE")
+    (DRC_Check_High_Speed_Props_Syntax "TRUE")
+    (DRC_Check_Missing_Pin_Numbers "TRUE")
+    (DRC_Check_Device_With_No_Pins "TRUE")
+    (DRC_Check_Power_Ground_Short "TRUE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Visible_Power_pins "FALSE")
+    (DRC_Report_Unused_Part_Packages "TRUE")
+    (DRC_Check_Name_Prop_For_HierBlocks "TRUE")
+    (DRC_Run_Physical_Custom_DRC "FALSE")
     (NoModify)
-    (Display_Online_DRC_Results "FALSE"))
-  (Folder "Layout")
-  (Folder "Outputs")
+    (Netlist_TAB "3")
+    (LAYOUT_Netlist_File "22-315-0.MNL")
+    (LAYOUT_PCB_Footprint "{PCB Footprint}")
+    (FALSE)
+    (LAYOUT_Units "0")
+    (FALSE)
+    (FALSE)
+    (FALSE)
+    (FALSE)
+    (FALSE)
+    (FALSE)
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File
+       "D:\UTENTI\00.LAVORI IN CORSO\METALTRONICA\22-315-0\22-315-0.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0
+       "{Item}\t{Quantity}\t{Reference}\t{Descrizione}\t{Value}\t{PN Costruttore}\t{Codice Acquisto Fornitore}\t{Costruttore}\t{PACKAGE}")
+    (BOM_Header
+       "Pos.\tQtà\tRif\tDescrizione\tValue\tPN Costruttore\tPN Fornitore\tCostruttore\tPackage")
+    (BOM_Include_File
+       "D:\UTENTI\00.LAVORI IN CORSO\METALTRONICA\22-315-0\22-315-0.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "TRUE")
+    (BOM_View_Output "FALSE"))
+  (Folder "Outputs"
+    (File ".\22-315-0.drc"
+      (Type "Report"))
+    (File ".\22-315-0.mnl"
+      (Type "LAYOUT Netlist File"))
+    (File ".\22-315-0.bom"
+      (Type "Report")))
   (Folder "Referenced Projects")
-  (Folder "PSpice Resources"
-    (Folder "Simulation Profiles")
-    (Folder "Model Libraries"
-      (Sort User))
-    (Folder "Stimulus Files"
-      (Sort User))
-    (Folder "Include Files"
-      (Sort User)))
-  (Folder "Logs")
-  (PartMRUSelector
-    (GND_EARTH
-      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (L_47uH_COILCRAFT
-      (FullPartName "L_47uH_COILCRAFT.Normal")
-      (LibraryName
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-315\ORCAD\LIBRARY.OLB")
-      (DeviceIndex "0"))
-    (CON_B4B-XH-A
-      (FullPartName "CON_B4B-XH-A.Normal")
-      (LibraryName
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-315\ORCAD\LIBRARY.OLB")
-      (DeviceIndex "0"))
-    (C_EMI_W3F15C4738AT1F
-      (FullPartName "C_EMI_W3F15C4738AT1F.Normal")
-      (LibraryName
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-315\ORCAD\LIBRARY.OLB")
-      (DeviceIndex "0")))
-  (MPSSessionName "marco")
+  (PartMRUSelector)
   (GlobalState
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" ".\22-315-0.dsn")
       (Path "Design Resources" ".\22-315-0.dsn" "SCHEMATIC1")
-      (Path "Design Resources" "Library")
-      (Select "Design Resources" ".\22-315-0.dsn" "SCHEMATIC1" "POWER"))
+      (Path "Outputs")
+      (Select "Design Resources" ".\22-315-0.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 911"))
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 660"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1461 24 929")
-        (Scroll "-115 3")
-        (Zoom "123")
+        (Placement "44 0 1 -1 -1 -8 -31 52 1587 52 729")
+        (Scroll "-59 0")
+        (Zoom "117")
         (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-315\ORCAD\22-315-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "POWER"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1461 24 929")
-        (Scroll "-104 -7")
-        (Zoom "104")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-315\ORCAD\22-315-0.DSN")
+      (Path "D:\UTENTI\00.LAVORI IN CORSO\METALTRONICA\22-315-0\22-315-0.DSN")
       (Schematic "SCHEMATIC1")
       (Page "CAN-BUS"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1461 24 929")
-        (Scroll "-135 -8")
-        (Zoom "119")
+        (Placement "44 0 1 -1 -1 -8 -31 78 1613 78 755")
+        (Scroll "-59 51")
+        (Zoom "117")
         (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-315\ORCAD\22-315-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "LIGHT"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1461 24 929")
-        (Scroll "-104 -7")
-        (Zoom "104")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-315\ORCAD\22-315-0.DSN")
+      (Path "D:\UTENTI\00.LAVORI IN CORSO\METALTRONICA\22-315-0\22-315-0.DSN")
       (Schematic "SCHEMATIC1")
       (Page "MOTOR"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1461 24 929")
-        (Scroll "-104 -7")
-        (Zoom "104")
+        (Placement "44 0 1 -1 -1 -8 -31 104 1639 104 781")
+        (Scroll "-59 51")
+        (Zoom "117")
         (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-315\ORCAD\22-315-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "uC"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1461 24 929")
-        (Scroll "-104 -7")
-        (Zoom "104")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-315\ORCAD\22-315-0.DSN")
+      (Path "D:\UTENTI\00.LAVORI IN CORSO\METALTRONICA\22-315-0\22-315-0.DSN")
       (Schematic "SCHEMATIC1")
       (Page "OPTO"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1461 24 929")
-        (Scroll "-115 3")
-        (Zoom "123")
+        (Placement "44 0 1 -1 -1 -8 -31 130 1665 130 807")
+        (Scroll "-93 103")
+        (Zoom "134")
         (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-315\ORCAD\22-315-0.DSN")
+      (Path "D:\UTENTI\00.LAVORI IN CORSO\METALTRONICA\22-315-0\22-315-0.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "TEST_BUTTON"))))
+      (Page "POWER"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 156 1691 156 833")
+        (Scroll "-59 51")
+        (Zoom "117")
+        (Occurrence "/"))
+      (Path "D:\UTENTI\00.LAVORI IN CORSO\METALTRONICA\22-315-0\22-315-0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "TUBE"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 182 1717 182 859")
+        (Scroll "-59 51")
+        (Zoom "117")
+        (Occurrence "/"))
+      (Path "D:\UTENTI\00.LAVORI IN CORSO\METALTRONICA\22-315-0\22-315-0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "uC"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 208 1743 208 885")
+        (Scroll "-93 103")
+        (Zoom "134")
+        (Occurrence "/"))
+      (Path "D:\UTENTI\00.LAVORI IN CORSO\METALTRONICA\22-315-0\22-315-0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "TEST_BUTTON")))
+  (ISPCBBASICLICENSE "false")
+  (MPSSessionName "Osvy"))
