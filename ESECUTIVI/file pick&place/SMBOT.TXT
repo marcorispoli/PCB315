@@ -3,7 +3,7 @@
 * Surface Mount Bottom Report                                      *
 *                                                                  *
 * D:\UTENTI\00.LAVORI IN CORSO\METALTRONICA\22-315-0\22-315-0.MAX  *
-* Mon Feb 06 17:37:50 2023                                         *
+* Wed Oct 18 14:31:34 2023                                         *
 *                                                                  *
 ********************************************************************
 
