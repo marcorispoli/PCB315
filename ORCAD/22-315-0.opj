@@ -1,6 +1,6 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[10/17/23]")
+  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[01/30/24]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library")
@@ -88,16 +88,95 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
+      (Path "Design Resources" ".\22-315-0.dsn")
+      (Path "Design Resources" ".\22-315-0.dsn" "SCHEMATIC1")
       (Path "Outputs")
       (Select "Design Resources" ".\22-315-0.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 1056"))
-      (Tab 0)))
+        (Placement "44 0 1 -1 -1 -1 -1 0 308 0 911"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 1279 24 929")
+        (Scroll "-24 0")
+        (Zoom "123")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-315\ORCAD\22-315-0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "COMPONENT"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1279 24 929")
+        (Scroll "-13 -7")
+        (Zoom "104")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-315\ORCAD\22-315-0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "uC"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1279 24 929")
+        (Scroll "-13 -7")
+        (Zoom "104")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-315\ORCAD\22-315-0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "CAN-BUS"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1279 24 929")
+        (Scroll "-44 -8")
+        (Zoom "119")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-315\ORCAD\22-315-0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "LIGHT"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1279 24 929")
+        (Scroll "-13 -7")
+        (Zoom "104")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-315\ORCAD\22-315-0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "MOTOR"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1279 24 929")
+        (Scroll "-24 3")
+        (Zoom "123")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-315\ORCAD\22-315-0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "POWER"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 0 0 5 1279 24 929")
+        (Scroll "-1 0")
+        (Zoom "106")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-315\ORCAD\22-315-0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "OPTO")))
   (ISPCBBASICLICENSE "false")
-  (MPSSessionName "Osvy")
+  (MPSSessionName "marco")
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles")
     (Folder "Model Libraries"
